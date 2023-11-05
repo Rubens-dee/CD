@@ -1,1 +1,1 @@
-git pull
+./CD/git pull
