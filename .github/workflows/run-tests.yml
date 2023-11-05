@@ -30,6 +30,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           command_timeout: 30m
-          script: | 
-            echo "Nice Job!!!"
-          run: bash ./home/CD/pull.sh
+          script: 
+              echo "Nice Job!!!"
+              bash ./home/CD/pull.sh
