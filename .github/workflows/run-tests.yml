@@ -30,4 +30,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           command_timeout: 30m
-          script: bash ./home/CD/pull.sh
+          script: dir
