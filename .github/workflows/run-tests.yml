@@ -32,3 +32,4 @@ jobs:
           command_timeout: 30m
           script: | 
             echo "Nice Job!!!"
+          run: bash ./home/CD/pull.sh
